@@ -11,12 +11,12 @@
         android:id="@+id/bt_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="生成差异包" />
 
     <Button
         android:id="@+id/bt_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="合并差异包" />
 
 </LinearLayout>
