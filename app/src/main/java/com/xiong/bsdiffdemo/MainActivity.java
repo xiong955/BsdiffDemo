@@ -26,7 +26,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private Button mBt1;
     private Button mBt2;
-    // 根目录
+    /**
+     * 根目录
+     */
     private String mPath = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator;
 
     private int REQUEST_CODE = 200;
@@ -78,6 +80,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     intent.setDataAndType(Uri.fromFile(new File(mPath + "app1.apk")), "application/vnd.android.package-archive");
                 }
                 startActivity(intent);
+                break;
+
+            default:
                 break;
 
         }
